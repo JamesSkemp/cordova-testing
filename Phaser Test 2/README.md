@@ -10,3 +10,5 @@
 7. Test on device.
 
 Expected behavior is to see the Phaser logo, with white text above it.
+
+This project was created to assist with [How to connect Phaser with Cordova](http://stackoverflow.com/q/35773775/11912).
