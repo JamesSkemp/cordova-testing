@@ -9,4 +9,4 @@
 6. Test on desktop.
 7. Test on device.
 
-Expected behavior is to see the Cordova logo.
+Expected behavior is to see the Phaser logo, with white text above it.
