@@ -1,9 +1,8 @@
-# Official Getting Started
+# Following Official Getting Started Guides
+The following Cordova and Ionic projects focus on creating an Android application on a MacBook Air.
+
+## Cordova
 From https://cordova.apache.org/docs/en/latest/guide/cli/.
-
-Focused on creating an Android application on a MacBook Air.
-
-Right now Android API Level 25 is the highest version supported.
 
 1. `npm install -g cordova`
 2. `cordova create hello com.example.hello HelloWorld`
@@ -26,6 +25,13 @@ Right now Android API Level 25 is the highest version supported.
 	- In Android Studio you may need to add the AVD Manager to the Tools menu and then use that to download a system image and create a new virtual device.
 	- It may be necessary to run `adb kill-server && adb forward --remove-all && adb start-server` if it can't connect.
 
+## Ionic
+From https://ionicframework.com/docs/intro/installation/.
 
-
+1. `npm install -g ionic`
+2. `ionic start helloWorld blank`
+	- Integrate your new app with Cordova by entering `y` next.
+	- Don't install Ionic Pro SDK.
+3. `cd helloWorld`
+4. `ionic serve` will load the project in a browser.
 
