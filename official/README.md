@@ -35,3 +35,6 @@ From https://ionicframework.com/docs/intro/installation/.
 3. `cd helloWorld`
 4. `ionic serve` will load the project in a browser.
 
+## Misc
+- If you want to check on your Android Virtual Devices (AVD) via the command line, `cd ~/Library/Android/sdk/tools/bin` and run `./avdmanager list avd`.
+
